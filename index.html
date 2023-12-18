@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="logo.png" alt="Association Logo" width = "200">
+            <img src="path/to/your/logo.png" alt="Association Logo" width="200" height="100">
         </div>
         <h1>Gayathri Fans Association</h1>
     </header>
@@ -28,23 +28,43 @@
             <!-- Add background image here -->
         </div>
         <div class="home-content">
-            <!-- Add home content here -->
+            <p>Welcome to the official website of the Gayathri Fans Association. Join us in celebrating the talent and charisma of Gayathri.</p>
         </div>
     </section>
 
     <section id="membership">
         <h2>Membership</h2>
-        <!-- Add membership details here -->
+        <p>Become a member today and stay connected with fellow Gayathri fans!</p>
+        <form action="membership_process.php" method="post">
+            <!-- Add membership form fields here (e.g., name, email, etc.) -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Join Now</button>
+        </form>
     </section>
 
     <section id="meetings">
         <h2>Meetings</h2>
-        <!-- Add meetings details here -->
+        <p>Stay updated on our upcoming meetings and events.</p>
+        <ul>
+            <li>Next Meeting: December 20, 2023, 7:00 PM</li>
+            <li>Location: [Venue Name]</li>
+        </ul>
     </section>
 
     <section id="media">
         <h2>Media</h2>
-        <!-- Add videos and photos here -->
+        <div class="video-gallery">
+            <!-- Add videos here -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="photo-gallery">
+            <!-- Add photos here -->
+            <img src="path/to/photo1.jpg" alt="Event Photo 1">
+            <img src="path/to/photo2.jpg" alt="Event Photo 2">
+        </div>
     </section>
 
     <footer>
